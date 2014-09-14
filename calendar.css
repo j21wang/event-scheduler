@@ -1,0 +1,46 @@
+#calendar {
+    height: 720px;
+    margin: 12px;
+    padding: 10px;
+    width: 600px;
+}
+
+#calendar .axis line, .axis path {
+    fill: none;
+}
+
+#calendar .eventRect {
+    fill: white;
+    stroke: lightgrey;
+}
+
+#calendar text {
+    fill: #CDCDCD;
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+    font-size: 9px;
+}
+
+#calendar .eventName {
+    fill: #2363A0;
+    font-size: 12px;
+}
+
+#calendar .eventLocation {
+    font-size: 9px;
+}
+
+#calendar .timeText {
+    fill: #818181;
+    font-size: 13px;
+    font-weight: bold;
+    text-anchor: end;
+}
+
+#calendar .background {
+    fill: #ECECEC;
+}
+
+#calendar .eventLine {
+    stroke: #3767A1;
+    stroke-width: 5px;
+}
